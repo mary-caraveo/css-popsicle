@@ -22,3 +22,101 @@ body {
 
 }
 
+.content-right-eye {
+  background: #ee6459;
+  border-radius: 35px 35px 0 0;
+  width: 25%;
+  height: 32vh;
+  position: relative;
+  right: -60%;
+  top: 20%;
+}
+
+.right-eye {
+  background: white;
+  border-radius: 35px 35px 0 0;
+  width: 70%;
+  height: 27vh;
+  position: relative;
+  right: -15%;
+  top: 15.6%;
+}
+
+.right-iris {
+  background: black;
+  position: relative;
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  height: 15vh;
+  top: 44.7%;
+}
+
+.small-right-pupil{
+  background: white;
+  border-radius: 50%;
+  width: 10%;
+  height: 5%;
+  position: relative;
+  top: 12%;
+  right: -76%;
+}
+
+.right-large-pupil{
+  background: white;
+  border-radius: 50%;
+  width: 20%;
+  height: 10%;
+  position: relative;
+  top: 14%;
+  right: -55%;
+}
+
+.content-left-eye {
+  background: #ee6459;
+  border-radius: 35px 35px 0 0;
+  width: 25%;
+  height: 32vh;
+  position: relative;
+  left: 15%;
+  top: -44%;
+}
+
+.left-eye {
+  background: white;
+  border-radius: 35px 35px 0 0;
+  width: 70%;
+  height: 27vh;
+  position: relative;
+  left: 15%;
+  top: 15.6%;
+}
+
+.left-iris {
+  background: black;
+  position: relative;
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  height: 15vh;
+  top: 44.7%;
+}
+
+.small-left-pupil{
+  background: white;
+  border-radius: 50%;
+  width: 10%;
+  height: 5%;
+  position: relative;
+  top: 12%;
+  left: 76%;
+}
+
+.left-large-pupil{
+  background: white;
+  border-radius: 50%;
+  width: 20%;
+  height: 10%;
+  position: relative;
+  top: 14%;
+  left: 55%;
+}
+
