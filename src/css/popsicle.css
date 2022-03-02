@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: pink;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+}
+
+.content-popsicle {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: #ff6961;
+  width: 25%;
+  height: 50vh;
+  border-radius: 60vw 60vw 5% 5%;
+
+}
+
