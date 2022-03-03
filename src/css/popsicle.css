@@ -32,6 +32,30 @@ body {
   top: 20%;
 }
 
+.eyelashes {
+  position: absolute;
+  width: 35%;
+  height: 15%;
+  border-radius: 100%;
+  border-left: 6px solid #000000;
+  animation: close_eyes 5s alternate infinite;
+}
+
+.eyelashes-right-1{
+  top: 9%;
+  right: 30%;
+}
+
+.eyelashes-right-2{
+  top: 9%;
+  right: 12%;
+}
+
+.eyelashes-right-3{
+  top: 9%;
+  right: -6%;
+}
+
 .right-eye {
   background: white;
   border-radius: 35px 35px 0 0;
@@ -79,6 +103,21 @@ body {
   position: relative;
   left: 15%;
   top: -42%;
+}
+
+.eyelashes-left-1{
+  top: 9%;
+  left: 60%;
+}
+
+.eyelashes-left-2{
+  top: 9%;
+  left: 43%;
+}
+
+.eyelashes-left-3{
+  top: 9%;
+  left: 25%;
 }
 
 .left-eye {
