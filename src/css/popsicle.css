@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-  display: grid;
+  display: flex;
   justify-content: center;
-  place-items: center;
+  align-items: center;
   height: 90vh;
 }
 
