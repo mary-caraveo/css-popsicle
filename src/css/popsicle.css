@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #ff6961;
-  width: 20%;
+  width: 18%;
   height: 52vh;
   top: 19%;
   border-radius: 60vw 60vw 25% 25%;
@@ -73,7 +73,7 @@ body {
   border-radius: 30px 30px 0 0;
   width: 100%;
   height: 15vh;
-  top: 44.6%;
+  top: 44.4%;
 }
 
 .small-right-pupil{
@@ -137,7 +137,7 @@ body {
   border-radius: 30px 30px 0 0;
   width: 100%;
   height: 15vh;
-  top: 44.6%;
+  top: 44.4%;
 }
 
 .small-left-pupil{
@@ -162,12 +162,12 @@ body {
 
 .popsicle-stick {
   background: blanchedalmond;
-  width: 5%;
+  width: 4%;
   height: 15vh;
-  position: absolute;
-  top: 71%;
+  position: relative;
+  top: 28.5%;
   border-radius: 0 0 30px 30px;
-  box-shadow: 3px 1px 18px #888888;
+  box-shadow: 6px 1px 18px #888888;
 }
 
 .popsicle-stick-shadow {
