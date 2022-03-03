@@ -8,7 +8,7 @@ body {
   display: grid;
   justify-content: center;
   place-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .content-popsicle {
@@ -17,9 +17,9 @@ body {
   align-items: center;
   background: #ff6961;
   width: 20%;
-  height: 50vh;
-  border-radius: 60vw 60vw 5% 5%;
-
+  height: 52vh;
+  border-radius: 60vw 60vw 25% 25%;
+  box-shadow: 2px 3px 18px #888888;
 }
 
 .content-right-eye {
@@ -48,7 +48,7 @@ body {
   border-radius: 30px 30px 0 0;
   width: 100%;
   height: 15vh;
-  top: 44.7%;
+  top: 44.6%;
 }
 
 .small-right-pupil{
@@ -78,7 +78,7 @@ body {
   height: 32vh;
   position: relative;
   left: 15%;
-  top: -44%;
+  top: -42%;
 }
 
 .left-eye {
@@ -97,7 +97,7 @@ body {
   border-radius: 30px 30px 0 0;
   width: 100%;
   height: 15vh;
-  top: 44.7%;
+  top: 44.6%;
 }
 
 .small-left-pupil{
@@ -120,3 +120,22 @@ body {
   left: 55%;
 }
 
+.popsicle-stick {
+  background: blanchedalmond;
+  width: 5%;
+  height: 15vh;
+  position: absolute;
+  top: 71%;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 3px 1px 18px #888888;
+}
+
+.popsicle-stick-shadow {
+  background: #d0abab;
+  width: 10%;
+  height: 1vh;
+  position: absolute;
+  top: 86%;
+  border-radius: 100%;
+  box-shadow: 1px 5px 18px #888888;
+}
