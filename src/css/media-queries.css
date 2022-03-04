@@ -4,24 +4,38 @@
     height: 48vh;
   }
 
-  .content-left-eye {
-    top: -47%;
+  .eyelashes-left,
+  .eyelashes-right {
+    width: 2vw;
   }
 
   .popsicle-stick {
-    width: 12%;
-    top: 67%;
+    width: 14%;
   }
 
   .popsicle-stick-shadow {
     width: 20%;
-    top: 82%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .content-popsicle {
+    width: 25%;
+  }
+
+  .popsicle-stick {
+    width: 6%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .content-popsicle {
     width: 40%;
+  }
+
+  .eyelashes-left,
+  .eyelashes-right {
+    width: 2vw;
   }
 
   .popsicle-stick {
@@ -32,9 +46,26 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .content-popsicle {
     width: 35%;
+    height: 45vh;
+  }
+
+  .content-left-eye,
+  .content-right-eye {
+    border-radius: 50px 50px 0 0;
+  }
+
+  .eyelashes-right,
+  .eyelashes-left {
+    width: 2vw;
+  }
+
+  .left-iris,
+  .right-iris {
+    border-radius: 40px 40px 0 0;
   }
 
   .popsicle-stick {
     width: 8%;
+    border-radius: 0 0 40px 40px;
   }
 }
