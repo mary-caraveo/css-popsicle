@@ -156,20 +156,22 @@ body {
 .drop {
   position: relative;
   background-color: #ee6459;
-  height: 20px;
-  width: 20px;
   border-radius: 0% 50% 50% 50%;
   transform: rotate(45deg);
   z-index: 1;
 }
 
 .big-drop {
+  height: 20px;
+  width: 20px;
   top: 2vh;
   right: 10vh;
   box-shadow: inset -8px 6px 0px -6px #cc550d;
 }
 
 .little-drop {
+  height: 15px;
+  width: 15px;
   top: 3vh;
   right: 7vh;
   box-shadow: inset -8px 6px 0px -6px #cc550d;
