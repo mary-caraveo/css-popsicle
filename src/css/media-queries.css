@@ -16,6 +16,16 @@
   .popsicle-stick-shadow {
     width: 20%;
   }
+
+  .big-drop {
+    top: 2vh;
+    right: 8vh;
+  }
+
+  .little-drop {
+    top: 3vh;
+    right: 6vh;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -40,6 +50,14 @@
 
   .popsicle-stick {
     width: 10%;
+  }
+
+  .big-drop {
+    right: 8vh;
+  }
+
+  .little-drop {
+    right: 6vh;
   }
 }
 
@@ -67,5 +85,13 @@
   .popsicle-stick {
     width: 8%;
     border-radius: 0 0 40px 40px;
+  }
+
+  .big-drop {
+    right: 8vh;
+  }
+
+  .little-drop {
+    right: 6vh;
   }
 }
