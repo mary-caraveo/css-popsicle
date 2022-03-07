@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) {
+  body {
+    overflow-y: scroll;
+  }
+
   .content-popsicle {
     width: 60%;
     height: 48vh;
@@ -25,6 +29,27 @@
   .little-drop {
     top: 3vh;
     right: 6vh;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: end;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .name {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 4rem 0 0;
+  }
+
+  .heart {
+    margin: 0;
   }
 }
 
@@ -58,6 +83,27 @@
 
   .little-drop {
     right: 6vh;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: end;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .name {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 4rem 0 0;
+  }
+
+  .heart {
+    margin: 0;
   }
 }
 
@@ -93,5 +139,26 @@
 
   .little-drop {
     right: 6vh;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: end;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .name {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 4rem 0 0;
+  }
+
+  .heart {
+    margin: 0;
   }
 }
