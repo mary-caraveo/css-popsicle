@@ -206,6 +206,7 @@ body {
   box-shadow: 1px 5px 18px #888888;
   animation: blink 5s alternate infinite;
 }
+
 @keyframes move {
   0% {
     transform: scale(1.1);
@@ -231,9 +232,9 @@ body {
 }
 
 @keyframes drop-1 {
-    to {
-      top: 70px;
-    }
+  to {
+    top: 70px;
+  }
 }
 
 @keyframes drop-2 {
